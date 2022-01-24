@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Lato", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Roboto", sans-serif;
+}
+
+input {
+	font-family: inherit;
+	font-size: 1rem;
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.drawer-container {
+	padding: 1rem 0.75rem;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+	width: 300px;
+}
+
+.drawer-heading-container {
+	padding-bottom: 1rem;
+}
+
+.drawer-item {
+	padding: 0.75rem 0;
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+	color: hsl(0, 0%, 27%);
+}
+
+.drawer-item.active {
+	color: hsl(205, 80%, 36%);
+	background-color: hsla(205, 100%, 55%, 0.1);
+}
+
+.drawer-item:hover {
+	color: hsl(205, 80%, 36%);
+	background-color: hsla(205, 100%, 55%, 0.1);
+}
+
+.drawer-icon {
+	padding: 0.5rem;
+}
